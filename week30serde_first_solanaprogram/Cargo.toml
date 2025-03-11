@@ -1,0 +1,12 @@
+[package]
+name = "week30serde_first_solanaprogram"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+borsh = {version = "1.5.5" , features = ['derive']}
+derive = "1.0.0"
+serde = {version = "1.0.150" ,features = ['derive'] }
+serde_json = "1.0.140"
+
+
